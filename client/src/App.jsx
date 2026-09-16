@@ -6,14 +6,11 @@ import Notification from "./components/Notification"
 
 const App = () => {
   return (
-    <>
-    <Notification/>
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/register" element={<Register/>} />
       <Route path="/login" element={<Login/>} />
     </Routes>
-    </>
   )
 }
 
